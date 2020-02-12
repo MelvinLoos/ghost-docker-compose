@@ -1,5 +1,5 @@
 # Docker compose setup for Ghost CMS
-Simple setup to easily run Ghost CMS with docker compose.
+Simple setup to easily run [Ghost CMS](https://ghost.org) with docker compose.
 
 ## Quickstart
 Just run the following commands to get up and running
