@@ -8,4 +8,4 @@ cp example.env .env
 docker-compose up -d
 ```
 ## Customize
-If you want you can change the values in .env file to your liking.
+If you want you can change the values in your .env file to your liking.
