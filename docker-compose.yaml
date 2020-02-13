@@ -6,10 +6,10 @@ services:
     image: ghost:3-alpine
     restart: always
     ports:
-      - ${SERVER_PORT}:${SERVER_PORT}
+      - ${SERVER_PORT}:2368
     environment:
       server__host: ${SERVER_HOST}
-      server__port: ${SERVER_PORT}
+      server__port: 2368
       database__client: mysql
       database__connection__host: db
       database__connection__database: ${DB_DATABASE}
