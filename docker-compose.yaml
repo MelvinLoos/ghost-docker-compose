@@ -8,6 +8,7 @@ services:
     ports:
       - ${SERVER_PORT}:2368
     environment:
+      url: ${PUBLIC_URL}
       server__host: ${SERVER_HOST}
       server__port: 2368
       database__client: mysql
